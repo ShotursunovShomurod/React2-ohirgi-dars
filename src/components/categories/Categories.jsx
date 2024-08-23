@@ -11,21 +11,21 @@ import category9 from "@/assets/category9.png";
 import category10 from "@/assets/category10.png";
 import Fruit from "../Vegetables/Vegetables";
 import BigCard from "../BigCards/BigCard";
-import banner1 from "@/assets/banner-1.png";
-import banner2 from "@/assets/banner-2.png";
-import banner3 from "@/assets/banner-3.png";
+import BigCard1 from "@/assets/BigCard1.png";
+import BigCard2 from "@/assets/BigCard2.png";
+import BigCard3 from "@/assets/BigCard3.png";
 
 const fruitData = [
-  { img: category1, title: "Cake & Milk", items: "26 items" },
-  { img: category2, title: "Organic Kiwi", items: "28 items" },
-  { img: category3, title: "Peach", items: "42 items" },
-  { img: category4, title: "Red Apple", items: "54 items" },
-  { img: category5, title: "Snack", items: "25 items" },
-  { img: category6, title: "Vegetables", items: "12 items" },
-  { img: category7, title: "Strawberry", items: "45 items" },
-  { img: category8, title: "Black Plum", items: "57 items" },
-  { img: category9, title: "Custard Apple", items: "61 items" },
-  { img: category10, title: "Coffee & Tea", items: "14 items" },
+  { Rasmlar: category1, Titellar: "Cake & Milk", Itemlar: "26 items" },
+  { Rasmlar: category2, Titellar: "Organic Kiwi", Itemlar: "28 items" },
+  { Rasmlar: category3, Titellar: "Peach", Itemlar: "42 items" },
+  { Rasmlar: category4, Titellar: "Red Apple", Itemlar: "54 items" },
+  { Rasmlar: category5, Titellar: "Snack", Itemlar: "25 items" },
+  { Rasmlar: category6, Titellar: "Vegetables", Itemlar: "12 items" },
+  { Rasmlar: category7, Titellar: "Strawberry", Itemlar: "45 items" },
+  { Rasmlar: category8, Titellar: "Black Plum", Itemlar: "57 items" },
+  { Rasmlar: category9, Titellar: "Custard Apple", Itemlar: "61 items" },
+  { Rasmlar: category10, Titellar: "Coffee & Tea", Itemlar: "14 items" },
 ];
 
 const Categories = (item) => {
@@ -55,8 +55,8 @@ const Categories = (item) => {
         {fruitData.map((item, index) => (
           <Fruit
             key={index}
-            img={item.img}
-            title={item.title}
+            img={item.Rasmlar}
+            title={item.Titellar}
             kolvo={item.items}
           />
         ))}
@@ -64,15 +64,15 @@ const Categories = (item) => {
       <div className=" flex flex-wrap gap-4">
         <div className="flex-1 min-w-[300px] text-2xl font-bold">
           <BigCard
-            img={banner1}
+            img={BigCard1}
             text="Everyday Fresh & Clean with Our Products"
           />
         </div>
         <div className="flex-1 min-w-[300px] text-2xl font-bold">
-          <BigCard img={banner2} text="Make your Breakfast Healthy and Easy" />
+          <BigCard img={BigCard2} text="Make your Breakfast Healthy and Easy" />
         </div>
         <div className="flex-1 min-w-[300px] text-2xl font-bold">
-          <BigCard img={banner3} text="The best Organic Products Online" />
+          <BigCard img={BigCard3} text="The best Organic Products Online" />
         </div>
       </div>
     </div>
