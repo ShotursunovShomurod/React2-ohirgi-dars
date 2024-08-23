@@ -62,16 +62,16 @@ const Categories = (item) => {
         ))}
       </div>
       <div className=" flex flex-wrap gap-4">
-        <div className="flex-1 min-w-[300px]">
+        <div className="flex-1 min-w-[300px] text-2xl font-bold">
           <BigCard
             img={banner1}
             text="Everyday Fresh & Clean with Our Products"
           />
         </div>
-        <div className="flex-1 min-w-[300px]">
+        <div className="flex-1 min-w-[300px] text-2xl font-bold">
           <BigCard img={banner2} text="Make your Breakfast Healthy and Easy" />
         </div>
-        <div className="flex-1 min-w-[300px]">
+        <div className="flex-1 min-w-[300px] text-2xl font-bold">
           <BigCard img={banner3} text="The best Organic Products Online" />
         </div>
       </div>

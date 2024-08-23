@@ -1,7 +1,7 @@
-import React from "react";
-import { FaStar } from "react-icons/fa";
-import { IoCartOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import React from "react";
+import { IoCartOutline } from "react-icons/io5";
+import { FaStar } from "react-icons/fa";
 
 const Card = ({ img, title, id }) => {
   return (
@@ -15,6 +15,8 @@ const Card = ({ img, title, id }) => {
           />
         </Link>
       </div>
+      <div>
+
       <div className="product__desc flex flex-col flex-grow">
         <span className="text-[#ADADAD] text-xs">Snack</span>
         <h4 className="text-sm font-semibold mt-1">{title}</h4>
@@ -34,6 +36,7 @@ const Card = ({ img, title, id }) => {
             <IoCartOutline className="mr-1" /> Add
           </button>
         </div>
+      </div>
       </div>
     </div>
   );

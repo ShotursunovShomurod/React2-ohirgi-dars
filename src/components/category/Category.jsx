@@ -1,36 +1,36 @@
 import React from "react";
 import delivery from "@/assets/delivery.png";
 import heroBg from "@/assets/heroBg.png";
-import icon1 from "@/assets/icon1.png";
-import icon2 from "@/assets/icon2.png";
-import icon3 from "@/assets/icon3.png";
-import icon4 from "@/assets/icon4.png";
-import icon5 from "@/assets/icon5.png";
+import Logotip from "@/assets/icon1.png";
+import Logotip2 from "@/assets/icon2.png";
+import Logotip3 from "@/assets/icon3.png";
+import Logotip4 from "@/assets/icon4.png";
+import Logotip5 from "@/assets/icon5.png";
 import DeliveryCard from "../delvieryCard/DeliveryCard";
 
 const CategoryCard = [
   {
-    img: icon1,
+    img: Logotip,
     title: "Best prices ",
     desc: "Orders $50 or more",
   },
   {
-    img: icon2,
+    img: Logotip2,
     title: "Free delivery",
     desc: "24/7 amazing services",
   },
   {
-    img: icon3,
+    img: Logotip3,
     title: "Great daily deal",
     desc: "When you sign up",
   },
   {
-    img: icon4,
+    img: Logotip4,
     title: "Wide assortment",
     desc: "Mega Discounts",
   },
   {
-    img: icon5,
+    img: Logotip5,
     title: "Easy returns",
     desc: "Within 30 days",
   },

@@ -22,6 +22,11 @@ const Detail = () => {
   const [count, setCount] = useState(1);
 
   const increment = () => setCount((prevCount) => prevCount + 1);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
+
   const decrement = () => setCount((prevCount) => Math.max(prevCount - 1, 1));
   console.log(data);
   return (

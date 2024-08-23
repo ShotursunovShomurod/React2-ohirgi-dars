@@ -10,7 +10,7 @@ const Fruit = ({ title, img, kolvo }) => {
           className="w-16 h-16 object-cover rounded-md transition-transform transform hover:scale-110"
         />
       </div>
-      <div className="fruit__desc flex flex-col justify-between items-center justify-center text-center">
+      <div className="fruit__desc flex flex-col items-center justify-center text-center">
         <h3 className="text-md font-semibold mb-1">{title}</h3>
         <p className="text-gray-600 text-xs">{kolvo}</p>
       </div>

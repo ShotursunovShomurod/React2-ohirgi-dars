@@ -18,10 +18,10 @@ const ReclamaImg = ({ title }) => {
         <input
           type="text"
           placeholder="Your emaill address"
-          className=" bg-transparent outline-none pr-20 pl-2 max-w-[300px]"
+          className=" outline-none pr-20 pl-2 w-[300px]"
         />
       </div>
-      <button className="border bg-[#3BB77E] py-3 px-4 rounded-2xl text-white">
+      <button className="border bg-[#3BB77E] py-4 px-4 w-100 rounded-2xl text-white">
         Subscribe
       </button>
     </div>

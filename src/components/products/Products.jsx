@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import Card from "../card/Card";
 import axios from "@/api/index";
+import React, { useEffect, useState } from "react";
+import Card from "../ProductsCard/ProductsCard";
 
 const Products = () => {
-  const [products, setProducts] = useState(null);
-  const offset = 6
   const [limit, setLimit] = useState(2);
-  const [loading, setLoading] = useState(true);
+  const offset = 6
   const [categories, setCategories] = useState(null);
+  const [products, setProducts] = useState(null);
+  const [loading, setLoading] = useState(true);
   const [sort, setSort] = useState("category-list");
 
   useEffect(() => {
@@ -33,7 +33,10 @@ const Products = () => {
   console.log(categories);
 
   const items = products?.map((e) => (
-    <Card key={e.id} img={e.images[0]} title={e.title} id={e.id} />
+    <div className="relative">
+      <Card key={e.id} img={e.images[0]} title={e.title} id={e.id} />
+      <button className="absolute top-0 left-0 w-16 text-white font-bold text-1xl flex items-center justify-center px-2 py-2 rounded-[10px_0px_20px_0px] bg-blue-500">Sale</button>
+    </div>
   ));
   return (
     <div>
