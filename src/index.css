@@ -1,8 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.scroll-none::-webkit-scrollbar {
+    display: none;
+}
+.scroll-none::-moz-scrollbar {
+    display: none;
+}
 
-
-*{
-    scroll-behavior: smooth;
+@layer utilities {
+    .container {
+        @apply mx-auto;
+    }
 }

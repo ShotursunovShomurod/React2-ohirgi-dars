@@ -1,1 +1,8 @@
-Assalomu aleykum ustoz uzur agar codeimda hali kamchiligi bolsa keynroq yana korib bera olasiz,i chunki boyagi hatoni togirlay olmaganim uchun boshidan yozvomman shunga boshqattan ochib yuklashga bajbur boldim agar iloji bolsa vazifanmi darsimiz boshlanguncha qilib qoyursam va sizga tugattim dib etsam yana qayta tekshirib bera olasizmi ?
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
