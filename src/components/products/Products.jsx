@@ -8,7 +8,6 @@ import { FaHeart } from "react-icons/fa";
 const Products = ({ data, title }) => {
   const [{ wishlist }, dispatch] = useStateValue();
   console.log(data);
-  
 
   let items = data?.map((product) => {
     let percentageCount =
@@ -18,7 +17,7 @@ const Products = ({ data, title }) => {
         <div className="w-full h-60  rounded-lg">
           <Link to={`/products/${product.id}`}>
             <img
-              className="w-full h-full object-contain duration-300 hover:scale-105"
+              className="w-full h-full object-contain duration-300"
               src={product.images[0]}
               alt="Photo"
             />
@@ -39,7 +38,7 @@ const Products = ({ data, title }) => {
           </div>
           <div className="absolute top-0 left-0">
             <button className="rounded-[15px_0_20px_0] px-[20px] text-[12px] text-[#fff] py-[6px] font-bold bg-[#3BB77E]">
-Sale
+              Sale
             </button>
           </div>
           <div className="absolute top-0 right-0">
@@ -55,7 +54,7 @@ Sale
           <div>
             <div className="flex">
               <p className="text-[#B6B6B6] text-[14px]">By</p>
-              <p className="text-[#3BB77E] text-[14px] font-[400]">
+              <p className="text-[#3BB77E] ml-2 text-[14px] font-[400]">
                 {" "}
                 {product.brand}
               </p>
