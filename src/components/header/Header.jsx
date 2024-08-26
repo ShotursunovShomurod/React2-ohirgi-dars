@@ -5,7 +5,7 @@ import { CiSearch, CiLocationOn, CiHeart } from "react-icons/ci";
 import { IoCartOutline, IoPersonOutline } from "react-icons/io5";
 import { RiMenu2Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
-import { useStateValue } from "../context/Index";
+import { useStateValue } from "../../components/context/Index.jsx";
 import axios from "@/api/index";
 
 const Header = () => {
