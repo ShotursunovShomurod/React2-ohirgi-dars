@@ -6,7 +6,7 @@ import { IoCartOutline, IoPersonOutline } from "react-icons/io5";
 import { RiMenu2Fill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 import { useStateValue } from "../../components/context/Index.jsx";
-import axios from "@/api/index";
+import axios from "@/api/indexrm -rf node_modules";
 
 const Header = () => {
   const [searchRes, setSearchRes] = useState(null);
