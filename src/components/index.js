@@ -10,9 +10,9 @@ import Needs from "./needs/needs";
 import BestPrices from "./Homiylar/Homiylar";
 import Account from "../pages/account/account";
 import Wishlist from "../pages/wishlist/wishlist";
-import Cart from "../components/cart/cart";
+import Cart from "./cart/cart";
 import CardPages from "../pages/cart/CardPages";
-import Empty from "../components/empty/empty";
+import Empty from "./empty/empty";
 
 export {
   Header,
