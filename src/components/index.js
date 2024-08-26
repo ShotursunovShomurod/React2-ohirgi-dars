@@ -1,4 +1,4 @@
-import Header from "./header/header";
+import Header from "./header/Index";
 import Products from "./products/Products";
 import Footer from "./footer/Footer";
 import ReclamaImg from "./REclamaImg/ReclamaImg";
