@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import Home from "./pages/home/Home.jsx";
+import Home from './pages/home/Home.jsx';
 import Layout from "@/layout/Layout";
 import SingleProduct from "./pages/home/singleProduct/SingleProduct";
 import { Account, NewCart, Wishlist } from "./components";

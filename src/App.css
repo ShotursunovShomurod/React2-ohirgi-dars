@@ -25,7 +25,13 @@
   to {
     transform: rotate(360deg);
   }
+
 }
+
+.read-the-docs {
+  color: #888;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -37,6 +43,3 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
