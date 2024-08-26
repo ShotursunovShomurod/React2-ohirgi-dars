@@ -1,4 +1,3 @@
-import Header from "./header/Index";
 import Products from "./products/Products";
 import Footer from "./footer/Footer";
 import ReclamaImg from "./REclamaImg/ReclamaImg";
@@ -13,8 +12,10 @@ import Wishlist from "../pages/wishlist/wishlist";
 import Cart from "./cart/cart";
 import CardPages from "../pages/cart/CardPages";
 import Empty from "./empty/empty";
+import Header from "./header/Index.jsx";
 
 export {
+  
   Header,
   Products,
   Footer,
